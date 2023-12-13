@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> VISITA </title>
+    <script src="./funciones.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class = "btn">REGRESAR</a>
+        <div class = "wrap-5">
+            <div class = "wrap-texto">
+                <h1> ORGANIZA TU VISITA </h1>
+            </div>
+        </div>
+    </header>
+    <p style="text-align: center;">ACA, TE PREGUNTAREMOS ALGUNOS DATOS PARA PODER ORGANIZAR SU VISITA CON NUESTRA EMPRESA. EMPEZEMOS
+    </BR></BR>
+    TARIFAS:
+    <br>
+    VILLA CARLOS PAZ:
+    <BR>
+    PRECIO POR ADULTOS: $ 7000
+    - PRECIO POR MENOR: $5000
+    </BR>
+    VILLA GENERAL BELGRANO:
+    <BR>
+    PRECIO POR ADULTOS: $ 10000
+    - PRECIO POR MENOR: $8000
+    </BR>
+    LA CUMBRECITA:
+    <BR>
+    PRECIO POR ADULTOS: $ 15000
+    - PRECIO POR MENOR: $10000
+    </p>
+
+    <form>
+
+        <br>
+        <span>QUE LUGAR DESEA VISITAR?</span>
+        <select id="lugar-visita" required>
+            <option value="VILLA GENERAL BELGRANO">VILLA GENERAL BELGRANO</option>
+            <option value="VILLA CARLOS PAZ">VILLA CARLOS PAZ</option>
+            <option value="LA CUMBRECITA">LA CUMBRECITA</option>
+        </select> *
+        <br><br>
+        
+        <span>CANTIDAD ADULTOS: </span><input type="number" id="cant_adultos" name="cant_adultos" required  min="0"><br>
+        <span>CANTIDAD MENORES: </span><input type="number" id="cant_menores" name="cant_menores" required  min="0"><br><br>
+        <span>CUANTO LE GUSTARIA QUE DURE LA VISITA</span> <br>
+        <input type="radio" name="duracion" id="medio" value="medio">MEDIO DIA<br>
+        <input type="radio" name="duracion" id="completo" value="completo">DIA COMPLETO<br>
+        <br>
+        <span>ELIGA EL METODO DE PAGO</span>
+        <select id="pago">
+            <option value="efectivo">EFECTIVO (15% OFF)</option>
+            <option value="credito">CREDITO (10% RECARGO)</option>
+            <option value="devbito">DEBITO</option>
+        </select>
+        <br><br>
+        <button type="button" onclick="calcular()">CALCULAR PRECIO</button>
+        <button type="button" onclick="borrar()">BORRAR</button>
+    </form>
+    <br><br>
+    <div id="resultado"></div>
+</body>

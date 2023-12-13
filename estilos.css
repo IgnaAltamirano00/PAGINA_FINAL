@@ -1,0 +1,221 @@
+/* INDEX ESTILOS */
+
+#h1_index{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+#h2_index{
+    text-align: center;
+}
+
+body{
+    background-color: rgba(229, 228, 228, 0.808)
+}
+
+#descripcion_index{
+    padding: 1.2%;
+    border: 1px solid black;
+    border-width: 2% 2%;
+}
+
+.wrap-1{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagenes/cordoba-img.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* VILLA GENERAL BELGRANO INDEX ESTILOS */
+#img_vgb_princ{
+    float: right;
+    width: 340px;
+    height: 270px;
+}
+
+/* VILLA CARLOS PAZ INDEX ESTILOS */
+#img_cp_princ{
+    float: left;
+    width: 350px;
+    height: 290px;
+    padding: 10px;
+}
+
+/* LA CUMBRECITA INDEX ESTILOS */
+#img_cumbrecita_princ{
+    float: right;
+    width: 360px;
+    height: 260px;
+    padding: 10px;
+}
+
+
+/* VILLA GENERAL BELGRANO ESTILOS */
+.wrap-2{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagenes/v-gral-bno-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.wrap-texto{
+    color: azure;
+    text-align: center;
+    width: 50%;
+}
+
+#texto-vgb{
+    font-size: large;
+    text-align: center;
+}
+
+#primer-texto-vgb{
+    font-style: oblique;
+    font-size: x-large;
+    text-align: center;
+}
+
+#gmaps-vgb{
+    text-align: center;
+    font-size: x-large;
+}
+
+.btn{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+/* VILLA CARLOS PAZ ESTILOS */
+.wrap-3{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagenes/carlospaz-img-2.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+#texto-cp{
+    font-size: large;
+    text-align: center;
+}
+
+#primer-texto-cp{
+    font-style: oblique;
+    font-size: x-large;
+    text-align: center;
+}
+
+#gmaps-cp{
+    text-align: center;
+    font-size: x-large;
+}
+
+#multimedia-cp{
+    text-align: center;
+    font-size: x-large;
+}
+
+/* LA CUMBRECITA ESTILOS */
+.wrap-4{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagenes/lacumbrecita-img-2.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+#primer-texto-ccumbrecita{
+    font-style: oblique;
+    font-size: x-large;
+    text-align: center;
+}
+
+#texto-cumbrecita{
+    font-size: large;
+    text-align: center;
+}
+
+/* VISITAS ESTILOS */
+.wrap-5{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagenes/visita-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+form{
+    text-align: center;
+}
+
+#resultado{
+    text-align: center;
+}
+
+/* QUIENES SOMOS ESTILOS */
+.wrap-6{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(imagenes/quienes-somos-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#quienes-somos{
+    text-align: center;
+}
+
+#titulo-somos{
+    font-size: x-large;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    width: 200px;
+    height: 200px;
+    margin: 0 220px
+}
+
+#contacto_form{
+    text-align: center;
+    justify-content: center;
+}
+
+.input{
+    width: 400px;
+    height: 20px;
+}
+
+#cuadrado_form{
+    background-color: antiquewhite;
+    height: 210px;
+    border: 1px solid black;
+    border-width: 2% 2%;
+    padding: 1%;
+}
